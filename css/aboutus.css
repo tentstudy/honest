@@ -1,0 +1,157 @@
+html {
+    font-family: cairo !important;
+}
+
+@media screen and (min-width: 768px)
+{
+    .col12{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .space-content{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 990px)
+{
+    .space-content{
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .space-content{
+        width: 1170px;
+    }
+}@media screen and (min-width: 768px)
+{
+    .col3{
+        width:25%;
+        float: left;
+        padding: 1px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 480px)
+{
+    .member-profile {
+    display: block;
+    }
+}
+
+
+.row{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.col12{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1px;
+}
+
+.our-team{
+    text-align: center;
+}
+.space-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.employee {
+    position: relative;
+    min-height: 1px;
+}
+
+.member-profile
+{
+    display: inline-block;
+}
+.avatar{
+    width: 100%;
+    max-width: 240px;
+    border: 5px solid #ddd6d6;
+    transition: all 0.1s ease-in;
+    box-shadow: 0 0 27px -12px #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.avatar:hover {
+    border: 5px solid #ff9b9b;
+    position: relative;
+    z-index: 3;
+   /* transition: all 0.1s ease-in;*/
+}
+
+.team{
+    padding: 10px 0px;
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    background: #f3e8e8;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/*.infor{
+    position: relative;
+    margin-bottom: 0px;
+}*/
+
+
+/*ul li a{
+    text-decoration: none;
+    padding-bottom: 14px;
+    font-size:20px;
+
+}     
+h4 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 20px;
+}*/
+
+
+.content h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:blue;
+    font-size: 30px;
+}
+.link-face img{
+    float: left;
+}
+.x{
+    line-height: 36px;
+    /*padding-top: 107px;*/
+    /*margin-top: 21px;*/
+    /*float: left;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+ul{
+    list-style: none;
+
+}
+
+
+

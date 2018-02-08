@@ -1,0 +1,193 @@
+html {
+    font-family: cairo !important;
+}
+
+body{
+    background-color: #f5f8fa;
+}
+a{
+    text-decoration: none;
+}
+h5{
+    color: #1e3948;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+
+.container-message{
+    margin: auto;
+    max-width: 1100px;
+    overflow: hidden;
+}
+.tab-profile
+{
+    margin: 30px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.info{
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+}
+.profile-picture{
+    margin:11px 0;
+}
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 1px;
+    margin: 5px 1px;
+}
+
+.profile-setting{
+    margin-bottom: 15px;
+}
+.icon-setting{
+    margin: 0px 5px -3px -7px;
+}
+.link-mes:hover
+{
+    color: #ff9999;
+}
+.link-sent-meseage{
+    margin: 15px 1px;
+}
+
+.container .header .navar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-family:  unset;
+}
+
+.profile-center {
+    color: black;
+}
+/*end of tab-profile*/
+
+/*tab-message*/
+.tab-messages {
+    background-color: #ffffff;
+    border-radius:
+    margin: auto;
+}
+.mid-mes{
+   margin: auto;
+   width: 100%;
+     
+}
+
+.title-mes{
+    font-size: xx-large; 
+    color: green;
+    padding: 10px 0px;
+}
+
+ .nav-row-list::after
+ {
+    content: "";
+    clear: both;
+    display: block;
+    width: 100%;
+ }
+ .nav-row-list li{
+    padding: 6px 0px;
+    display: inline-block;
+    /*float: left;*/
+    /*border-radius: 3px;*/
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 13px;
+}
+.nav-row-list li:hover{
+    background-color: #e5e5e5;
+}
+.content-mes{
+    position: relative;
+    border-top: 1px solid #ff9999;
+    border-left:1px solid #ff9999;
+    border-right:1px solid #ff9999;
+    
+}
+.content-mes:last-child
+{   
+    /*background-color: red;*/
+    border-bottom: 1px solid #ff9999;
+    margin-bottom: 30px;
+}
+
+.mes{
+    display: block;
+    padding:7px 0px;
+    line-height: 1.5;
+}
+.delete{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /*float: right !important;*/
+    /*margin-right: 10px;
+    margin-bottom: 5px;*/
+    font-size: 19px;
+    color: #000;
+    text-shadow: 0 -1px 0 #fff;
+    opacity: 0.2;
+    font-weight: 800;
+    font-family: Arial !important;
+}
+
+.delete:hover{
+    opacity: 0.5;
+    font-weight: 900;
+}
+
+.time
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*margin-top: 20px;
+    margin-bottom: 10px;*/
+}
+
+
+.fa-heart
+{
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    color: #ff9999;
+    padding: 2px 3px 1px 2px;
+    border-radius: 5px;
+    border:1px solid #ff9999;
+    text-align: center;
+    padding-left: 4px;
+}
+.h-b:hover
+{
+    background-color: #ff9999;
+    color: #ffffff;
+}
+
+.addcssclick{
+    background-color: #ff9999;
+    color: #fff;
+}
+
+.fa-send-o:hover{
+    color: #ff9999;
+    cursor: pointer;
+}
+
+.dis-none{
+    display: none;
+}
+
+/*.tab-content
+{
+    display: block;
+}*/
+

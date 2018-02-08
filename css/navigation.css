@@ -1,0 +1,139 @@
+
+/*@media only screen and (max-width: 768px)
+{
+  
+
+  .nav-right{
+    display: none !important;
+  }
+  .nav-toggle{
+    display: block !important;
+  }
+}*/
+
+@media  screen and (max-width: 768px) {
+  .one {display: none !important;}
+  .toggle{
+    display: block !important;
+    float: right;
+  }
+  .nav-toggle{
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive .one {
+    float: none;
+    display: block !important;
+    text-align: left;
+  }
+}
+
+.toggle {
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.navigation .nav-right a {
+  text-decoration: none;
+  color: #ffffff;
+   /*font-weight: 400; */
+  font-family:  unset;
+}
+
+.nav-left{
+  overflow: hidden;
+  float: left;
+}
+
+.nav-right{
+  overflow: hidden;
+  float: right;
+}
+.clear{
+  clear: both;
+}
+/* header */
+.container .header {
+  background-color:#ff9999;
+  width:100%;
+  top: 0;
+
+  position: sticky;
+  z-index: 4;
+}
+
+.navogation .nav-left .logo a {
+  display: inline-block;
+}
+
+.main-menu-item{
+  overflow: hidden;
+  float: right;
+}
+.container .header ul{
+  float: left;
+  padding-right: 60px;
+}
+
+ .container .header ul li {
+  display: inline;
+}
+
+.navigation .nav-right ul li a {
+  padding: 20px 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 300;
+  /*display: none;*/
+}
+
+.logo{
+  padding-left: 10%;
+}
+
+.nav-toggle{
+  display: none;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin: 8px 16px;
+    padding: 9px 10px;
+    background-color: #ff9999;
+    border: 1px solid #e1dfdf;
+    border-radius: 4px;
+}
+
+.nav-toggle:hover
+{
+  background-color: #f28585;
+}
+ .sr-only {
+    position: relative;
+    width: 1px;
+    height: 1px;
+    margin: -2px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+    display: block;
+}
+
+.icon-bar{
+  box-sizing: border-box;
+    margin-top: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+}

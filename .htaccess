@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^send/([a-zA-Z0-9_-]+)$ send
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) router.php?r=$1 [QSA,L]
+
+#RewriteRule ^$ router.php [L]
+#RewriteRule ^.*$ router.php
